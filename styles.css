@@ -1,0 +1,132 @@
+header {
+    width: 1024px;
+    height: 61px;
+    display: flex;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+
+nav {
+    width: 357px;
+    height: 100%;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-family: Inter, sans-serif;
+    margin-right: 20px;
+}
+
+header a {
+    margin-right: auto;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #274867;
+    font-family: Inter, sans-serif;
+    padding-left: 20px;
+}
+
+main {
+    width: 1024px;
+    height: 646px;
+    background-color: #E5F2FF;
+}
+
+footer {
+    width: 1024px;
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    align-items: center;
+}
+
+footer a {
+    padding: 0 20px 0;
+    font-family: Inter, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+/*body {*/
+/*    width: 1024px;*/
+/*    margin: 0;*/
+/*}*/
+
+/*header {*/
+/*    width: 1024px;*/
+/*    height: 61px;*/
+/*    background: #FFFFFF;*/
+/*    border-bottom: 1px solid rgba(1, 124, 255, 0.50);*/
+/*}*/
+
+/*nav {*/
+/*    height: 100%;*/
+/*    font-family: Inter, sans-serif;*/
+/*    font-weight: normal;*/
+/*    font-size: 16px;*/
+/*}*/
+
+/*#container-header-items {*/
+/*    height: 100%;*/
+/*    display: flex;*/
+/*    justify-content: flex-end;*/
+/*    gap: 30px;*/
+/*    align-items: center;*/
+/*    padding: 0 20px 0;*/
+
+/*}*/
+
+/*a {*/
+/*    color: #274867;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*#amazing-product-top {*/
+/*    font-family: Inter, sans-serif;*/
+/*    font-weight: bold;*/
+/*    margin-right: auto;*/
+/*}*/
+
+
+
+/*main {*/
+/*    width: 1024px;*/
+/*    height: 646px;*/
+/*    background: #E5F2FF;*/
+/*    border-style: solid;*/
+/*    border-color: black;*/
+/*}*/
+
+
+
+/*footer {*/
+/*    width: 1024px;*/
+/*    height: 61px;*/
+/*    background: #FFFFFF;*/
+/*}*/
+
+/*#container-footer-items {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    padding: 0 20px 0;*/
+/*    height: 100%;*/
+/*    align-items: center;*/
+/*}*/
+
+/*#amazing-product-footer {*/
+/*    font-family: Inter, sans-serif;*/
+/*    font-weight: bold;*/
+/*}*/
+
