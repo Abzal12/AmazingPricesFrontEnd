@@ -1,3 +1,10 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
+/*header*/
+
 header {
     width: 1024px;
     height: 61px;
@@ -30,7 +37,7 @@ header a {
     padding-left: 20px;
 }
 
-
+/*footer*/
 
 footer {
     width: 1024px;
@@ -48,44 +55,42 @@ footer a {
     font-size: 16px;
 }
 
-
-
-
+/*main*/
 
 main {
     width: 1024px;
-    height: 646px;
-    background-color: #E5F2FF;
+    height: 834px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 100px;
+    row-gap: 60px;
     justify-content: normal;
 }
 
-#section-one {
+section:nth-child(1) {
     width: 459px;
     height: 150px;
     text-align: center;
     grid-area: one;
     display: flex;
     flex-direction: column;
+    margin-top: -30px;
 }
 
-#section-one p {
+section:nth-child(1) p {
     font-family: Inter, sans-serif;
     font-size: 16px;
     margin: -20px;
 }
 
-#section-one h1 {
+section:nth-child(1) h1 {
     font-family: Inter, sans-serif;
     font-size: 48px;
     font-weight: bold;
     opacity: 20%;
 }
 
-#section-two {
+section:nth-child(2) {
     width: 816px;
     height: 250px;
     grid-area: two;
@@ -130,8 +135,7 @@ main {
 
     display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
+    align-items: center;
 }
 
 .card-text {
@@ -150,29 +154,69 @@ main {
     margin: 5px;
 }
 
-.btn {
+button > a {
     font-family: Inter, sans-serif;
     font-size: 16px;
     text-decoration: none;
     color: #000000;
 }
 
-/*.btn-border {*/
-/*    width: 136px;*/
-/*    height: 35px;*/
-/*    border-radius: 4px;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    background-color: #C0E8FF;*/
-/*}*/
-
 button {
     width: 136px;
     height: 35px;
     border-radius: 4px;
+    border: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #C0E8FF;
+}
+
+section:nth-child(3) {
+    width: 480px;
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section:nth-child(3) > h2 {
+    font-size: 32px;
+    font-family: Inter, sans-serif;
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 1px;
+}
+
+table {
+    width: 480px;
+    height: 232px;
+}
+
+table th,
+table td {
+    padding-left: 10px;
+}
+
+thead {
+    background-color: #B9B9B9;
+}
+
+thead th:nth-child(1),
+thead th:nth-child(2),
+thead th:nth-child(3),
+thead th:nth-child(4) {
+    width: 25%;
+}
+
+
+th {
+    text-align: left;
 }
